@@ -56,7 +56,6 @@ ul {
 
 .left{
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin-left: 8px;
@@ -64,7 +63,7 @@ ul {
 
 .right{
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 16px;
+  margin-right: 8px;
 }
