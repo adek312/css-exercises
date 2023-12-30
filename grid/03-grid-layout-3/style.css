@@ -113,3 +113,27 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
 }
+
+.nav{
+  display: grid;
+  grid-column: span 1;
+  height: 1em;
+}
+
+.nav ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  list-style: none;
+}
+
+.sidebar{
+  gap: 50px;
+  grid-row: 2/4;
+  display: grid;
+}
+
+.sidebar div{
+  display: grid;
+  align-items: center;
+}
